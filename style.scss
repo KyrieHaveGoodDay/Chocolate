@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
+}
+
+body{
+    background: #994533;
+}
+.carousel-item{
+    height: 740px;
+    img{
+        object-fit: cover;
+    }
+}
+
+.product{
+    height: 360px;
+    img{
+        height: 100%;
+        object-fit: cover;
+    }
+}
