@@ -9,9 +9,13 @@ body{
     background: #994533;
 }
 .carousel-item{
-    height: 740px;
+    
     img{
         object-fit: cover;
+        height: 740px;
+        @media screen and (max-width:767px){
+            height: 300px;
+            }
     }
 }
 
